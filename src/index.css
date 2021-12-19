@@ -4,12 +4,17 @@
   box-sizing: border-box;
 }
 
+html {
+    font: 65% / 1.15 sans-serif;
+    background-image: url(./wood-wallpaper.jpg);
+}
+
 body {
   width: 100%;
   max-width: 60%;
   margin: 0 auto;
-  font: 1.4rem/1.25 Arial, sans-serif;
-  background-color: rgba(211, 208, 204, 0.85);  
+  font: 1.5rem/1.25 Arial, sans-serif;
+  background-color: rgba(211, 208, 204, 0.8);  
   color: #3b3b3b;
 }
 @media screen and (min-width: 620px) {
@@ -19,15 +24,11 @@ body {
   }
 }
 
-html {
-    font: 62.5% / 1.15 sans-serif;
-    background-image: url(./wood-wallpaper.jpg);
-}
-
 h1,
 h2 {
     margin-bottom: 0;
     text-align: center;
+    padding: 15px;
 }
 
 ul {
@@ -35,11 +36,35 @@ ul {
     padding: 0;
 }
 
+.btn {
+    color: inherit;
+    margin-bottom: 10px;
+}
+
 .main-container {
     margin: 10px;
 }
 
+.red-marker {
+    color: rgb(170, 52, 52);
+}
 
+.white-marker {
+    color:rgb(224, 217, 152)
+}
+
+.orange-marker {
+    color: rgb(202, 101, 6)
+}
+
+.rose-marker {
+    color: rgb(211, 135, 182)
+}
+
+.list-item {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
 
 /*
 clip-path: polygon(
