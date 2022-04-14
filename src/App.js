@@ -325,3 +325,4 @@ const loadWines = JSON.parse(window.localStorage.getItem("name"));
 key = loadWines ? loadWines.length : 0;
 
 ReactDOM.render(<App wines={loadWines} />, document.getElementById("root"));
+
